@@ -1,26 +1,33 @@
 # MLOps Revision
 
-A revision archive for MLOps notes, notebooks, pipeline examples, and supporting project material.
+Structured MLOps learning archive covering data workflows, Docker, Kubernetes, Jenkins, Kubeflow, monitoring, and deployment practice.
+
+This repository is intentionally archived after updates. It supports the active `mlops-project` and `ml-template` repos by preserving deeper notes and labs.
 
 ## Structure
 
 ```text
-MLOps-Project/
-S1/
-S2/
-S3/
-S4/
-S5/
-S6/
-S7/
+S1/  ML workflow foundations, Spark, dataframes
+S2/  Docker, preprocessing, model packaging
+S3/  Kubernetes, pods, deployments, services
+S4/  DevOps principles, Jenkins, Kubeflow setup
+S5/  Kubeflow, Katib, EKS, pipelines
+S6/  advanced MLOps labs
+S7/  advanced MLOps labs
+docs/
+  learning-path.md
+  portfolio-extraction-plan.md
 ```
 
-## Status
+## How This Repo Should Be Used
 
-Baseline repository structure is complete:
+- Keep it as a revision archive.
+- Extract polished projects into separate repos.
+- Use `docs/learning-path.md` to navigate the material.
+- Use `docs/portfolio-extraction-plan.md` to decide what should become showcase work.
 
-- topic folders
-- markdown notes
-- notebooks and sample pipelines
-- root README
-- root `.gitignore`
+## Related Active Repos
+
+- `mlops-project`
+- `ml-template`
+- `devops`
